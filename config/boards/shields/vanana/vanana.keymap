@@ -84,8 +84,8 @@
         lower_layer {
             bindings = <
                &kp DEL     &trans    &trans     &trans      &trans      &trans                &trans     &trans      &trans      &kp MINUS      &kp EQUAL     &kp BACKSLASH  
-                &kp BKSP    &kp FSLH    &kp NUM_7   &kp NUM_8   &kp NUM_9   &kp PLUS                &kp CARET   &kp LBKT    &kp RBKT    &kp LEFT_BRACKET      &kp RIGHT_BRACKET    &kp DELETE
-                &kp CAPS   &kp NUM_0   &kp NUM_4   &kp NUM_5   &kp NUM_6   &kp MINUS   &kp C_VOL_DN    &kp PIPE    &kp LPAR    &kp RPAR    &kp HASH    &kp TILDE   &trans
+                &kp BKSP    &kp LC(TAB)   &kp UP   &kp LC(LS(TAB))   &kp NUM_9   &kp PLUS                &kp CARET   &kp LBKT    &kp RBKT    &kp LEFT_BRACKET      &kp RIGHT_BRACKET    &kp DELETE
+                &kp SQT   &kp LEFT   &kp DOWN   &kp RIGHT   &kp NUM_6   &kp MINUS   &kp C_VOL_DN    &kp PIPE    &kp LPAR    &kp RPAR    &kp HASH    &kp TILDE   &trans
                 &kp DOT     &kp STAR    &kp NUM_1   &kp NUM_2   &kp NUM_3   &kp UNDER   &kp DARW    &trans    &ktrans    &trans   &trans    &trans   &trans
                             &trans      &trans      &trans      &trans      &trans                  &trans      &mo ADJUST  &trans      &kp END      &kp HOME
             >;
