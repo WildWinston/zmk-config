@@ -13,11 +13,13 @@
 #
 ---
 include:
+  # nice_nano_v2 -> nice_nano//zmk (Zephyr 4.1 / ZMK board variant)
   - board: nice_nano//zmk
-    shield: vanana
+    shield: vanana_rev2
+
+  # nice_nano (v1) -> nice_nano@1//zmk
+  - board: nice_nano@1//zmk
+    shield: waaffle_rev3
 
   - board: nice_nano//zmk
-    shield: waaffle
-  
-  - board: nice_nano//zmk
-    shield: waaffle
+    shield: waaffle_rev3
