@@ -67,14 +67,14 @@
                 &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans 
                             &trans      &trans      &trans      &trans      &kp SPC                 &kp SPC     &trans      &trans      &trans      &trans
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LEFT RIGHT>;         aqe
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LEFT RIGHT>;
         };
 
         mac_layer {
             bindings = <
                 &trans      &trans      &trans      &trans      &trans      &trans                  &trans      &trans      &trans      &trans      &trans      &trans  
                 &trans      &trans      &trans      &trans      &trans      &trans                  &trans      &trans      &trans      &trans      &trans      &trans
-                &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans   qe   &trans      &trans      &trans      &trans      &trans
+                &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans
                 &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans 
                             &kp LCTL    &kp LALT    &kp LGUI    &trans      &trans                  &trans      &trans      &kp RGUI    &trans      &trans
             >;
@@ -86,7 +86,7 @@
                &kp DEL     &trans    &trans     &trans      &trans      &trans                &trans     &trans      &trans      &kp MINUS      &kp EQUAL     &kp BACKSLASH  
                 &kp BKSP    &kp LC(TAB)   &kp UP   &kp LC(LS(TAB))   &kp NUM_9   &kp PLUS                &kp CARET   &kp LBKT    &kp RBKT    &kp LEFT_BRACKET      &kp RIGHT_BRACKET    &kp DELETE
                 &kp SQT   &kp LEFT   &kp DOWN   &kp RIGHT   &kp NUM_6   &kp MINUS   &kp C_VOL_DN    &kp PIPE    &kp LPAR    &kp RPAR    &kp HASH    &kp TILDE   &trans
-                &kp DOT     &kp STAR    &kp NUM_1   &kp NUM_2   &kp NUM_3   &kp UNDER   &kp DARW    &trans    &ktrans    &trans   &trans    &trans   &trans
+                &kp DOT     &kp STAR    &kp NUM_1   &kp NUM_2   &kp NUM_3   &kp UNDER   &kp DARW    &trans    &trans    &trans   &trans    &trans   &trans
                             &trans      &trans      &trans      &trans      &trans                  &trans      &mo ADJUST  &trans      &kp END      &kp HOME
             >;
             sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp C_VOL_DN C_VOL_UP>;
