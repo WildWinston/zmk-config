@@ -1,26 +1,10 @@
 # Copyright (c) 2020 dELLIKEEb
 # SPDX-License-Identifier: MIT
 
+# Minimal defconfig so this unused shield does not break other builds.
 if SHIELD_NAAN_REV2
 
 config ZMK_KEYBOARD_NAME
 	default "NaaN rev2"
-
-
-
-if ZMK_DISPLAY
-
-config I2C
-	default y
-
-config SSD1306
-	default y
-
-config SSD1306_REVERSE_MODE
-	default y
-
-endif # ZMK_DISPLAY
-
-# LVGL_COLOR_DEPTH_1 choice removed: not valid with LVGL 9 / Zephyr 4.1
 
 endif
